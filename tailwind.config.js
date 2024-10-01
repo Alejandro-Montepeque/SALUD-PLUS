@@ -9,9 +9,12 @@ export default {
       colors :{
         'transparent': 'transparent',
         'white': '#ffffff',
-        'primary': '#4f46e5',
+        'primary': 'rgb(var(--color-primary))',
         'secondary':'rgb(var(--color-secondary))',
         'third' : 'rgb(var(--color-third))'
+      },
+      backgroundImage:{
+        'background-img': "url('/src/img/back.jpg')",
       }
     },
   },

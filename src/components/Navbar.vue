@@ -1,20 +1,12 @@
 <template>
-    <nav class="bg-third flex ">
+    <nav class="bg-primary p-3 md:px-5 flex flex-col ms:items-center md:flex-row sticky ">
         <div>
-            <img alt="company" src="./img/care.png">
+            <img alt="logo-salud" src="/src/img/care.png" class="hidden md:block" width="48">
         </div>
-        <div>
-            <ul class="text-white flex">
-                <li class="nav-item">
-                    <a>Home</a>
-                </li>
-                <li class="nav-item">
-                    <a>Sign</a>
-                </li>
-                <li class="nav-item">
-                    <a>Sign In</a>
-                </li>
-            </ul>
+        <div class="flex items-center ms-2">
+            <h1 class="text-white">
+                SALUD-PLUS
+            </h1>
         </div>
     </nav>
 </template>

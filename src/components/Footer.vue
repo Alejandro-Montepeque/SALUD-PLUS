@@ -1,33 +1,30 @@
+<script setup>
+const scrollTop =()=>{
+  if(typeof window !== 'undefined') {
+    window.scrollTop({
+      top:0,
+      behavior:'instant'
+    });
+  }
+};
+</script>
+
 <template>
-    <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-third mb-3">
-      <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
-        <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
-          <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="#pablo">
-            pink Color
-          </a>
-          <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" v-on:click="toggleNavbar()">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-        <div v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
-          <ul class="flex flex-col lg:flex-row list-none ml-auto">
-            <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                <i class="fab fa-facebook-square text-lg leading-lg text-white opacity-75" /><span class="ml-2">Share</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                <i class="fab fa-twitter text-lg leading-lg text-white opacity-75" /><span class="ml-2">Tweet</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                <i class="fab fa-pinterest text-lg leading-lg text-white opacity-75" /><span class="ml-2">Pin</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </template>
+  <footer class="bg-primary p-3 md:px-5 flex flex-col md:flex-row items-center justify-between mt-auto">
+    <div>
+      <img src="/src/img/care.png" alt="logo-salud" class="hidden md:block" width="48">
+    </div>
+    <div class="text-center mt-4 space-x-10 md:mt-0 text-white">
+			<a target="_blank" href="https://github.com/Alejandro-Montepeque" title="github">
+        <i class="fa-brands fa-github"></i>
+			</a>
+			<a target="_blank" href="https://linkedin.com/in/alejandro-montepeque" title="linkedin">
+        <i class="fa-brands fa-linkedin"></i>
+			</a>
+		</div>
+    <button @click="scrollTop" class="sm:py-4">
+			<span class="text-white">Volver arriba</span>
+      <i class="fa-solid fa-arrow-up ms-2" style="color: #fcfcfc;"></i>
+		</button>
+  </footer>
+</template>
