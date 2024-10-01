@@ -26,4 +26,10 @@
     placeholder-gray-400
   }
 
+  .card {
+    @apply w-full flex
+    max-w-sm p-4 rounded-lg
+    sm:p-6 md:p-8
+  }
+
 }

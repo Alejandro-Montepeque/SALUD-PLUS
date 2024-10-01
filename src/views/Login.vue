@@ -6,9 +6,9 @@
 
 <template>
     <Navbar />
-    <div class="container py-5 flex justify-end">
-        <div class="w-full flex max-w-sm p-4 rounded-lg sm:p-6 md:p-8 bg-primary">
-            <form class="space-y-6 w-full">
+    <div class="flex justify-end items-center w-full h-screen bg-background-img bg-cover bg-fixed">
+        <div class="card bg-primary mr-20">
+            <form class="space-y-10 w-full">
                 <h5 class="text-xl font-medium text-gray-900 dark:text-white">Bienvenido a SALUD-PLUS
                 </h5>
                 <div>

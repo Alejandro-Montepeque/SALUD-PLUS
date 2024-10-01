@@ -1,5 +1,5 @@
 <template>
-    <nav class="bg-primary p-3 md:px-5 flex flex-col ms:items-center md:flex-row sticky">
+    <nav class="bg-primary p-3 md:px-5 flex flex-col ms:items-center md:flex-row sticky ">
         <div>
             <img alt="logo-salud" src="/src/img/care.png" class="hidden md:block" width="48">
         </div>
