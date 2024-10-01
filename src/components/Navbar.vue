@@ -1,10 +1,9 @@
 <template>
-    <nav class="bg-primary grid grid-cols-6">
-        <div class="w-full max-w-20 col-start-1 col-end-2
-         items-center">
-            <img alt="company" src="/src/img/care.png" class="h-auto max-h-16 ">
+    <nav class="bg-primary p-3 md:px-5 flex flex-col ms:items-center md:flex-row sticky">
+        <div>
+            <img alt="logo-salud" src="/src/img/care.png" class="hidden md:block" width="48">
         </div>
-        <div class="flex items-center">
+        <div class="flex items-center ms-2">
             <h1 class="text-white">
                 SALUD-PLUS
             </h1>

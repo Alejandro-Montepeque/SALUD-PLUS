@@ -1,9 +1,9 @@
 <script setup>
-import Footer from './components/Footer.vue'
+  import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <div class="flex flex-col h-100">
+  <div class="flex flex-col h-full">
     <div class="grow overflow-auto">
       <router-view></router-view>
     </div>

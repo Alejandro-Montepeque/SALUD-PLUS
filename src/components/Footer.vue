@@ -1,14 +1,13 @@
 <script setup>
 const scrollTop =()=>{
   if(typeof window !== 'undefined') {
-    window.scrollTo({
-      top=0,
-      behavior= 'instant'
+    window.scrollTop({
+      top:0,
+      behavior:'instant'
     });
   }
 };
 </script>
-
 
 <template>
   <footer class="bg-primary p-3 md:px-5 flex flex-col md:flex-row items-center justify-between mt-auto">
@@ -19,11 +18,11 @@ const scrollTop =()=>{
 			<a target="_blank" href="https://github.com/Alejandro-Montepeque" title="github">
         <i class="fa-brands fa-github"></i>
 			</a>
-			<a target="_blank" href="linkedin.com/in/alejandro-montepeque" title="linkedin">
+			<a target="_blank" href="https://linkedin.com/in/alejandro-montepeque" title="linkedin">
         <i class="fa-brands fa-linkedin"></i>
 			</a>
 		</div>
-    <button @click="scrollTop">
+    <button @click="scrollTop" class="sm:py-4">
 			<span class="text-white">Volver arriba</span>
       <i class="fa-solid fa-arrow-up ms-2" style="color: #fcfcfc;"></i>
 		</button>
