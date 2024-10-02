@@ -15,6 +15,8 @@ export default {
       },
       backgroundImage:{
         'background-img': "url('/src/img/back.jpg')",
+        'background-img-register': "url('/src/img/backRegister.jpg')",
+
       }
     },
   },

@@ -2,12 +2,15 @@
     import { ref } from 'vue';
     import { useRouter } from 'vue-router';
     import Navbar from '../components/Navbar.vue';
+    // import { zod } from "zod";
+
+
 </script>
 
 <template>
     <Navbar />
     <div class="flex justify-end items-center w-full h-screen bg-background-img bg-cover bg-fixed">
-        <div class="card bg-primary mr-20">
+        <div class="card bg-primary mr-20 max-w-sm">
             <form class="space-y-10 w-full">
                 <h5 class="text-xl font-medium text-gray-900 dark:text-white">Bienvenido a SALUD-PLUS
                 </h5>

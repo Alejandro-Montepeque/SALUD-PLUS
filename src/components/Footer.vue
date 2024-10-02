@@ -1,11 +1,9 @@
 <script setup>
-const scrollTop =()=>{
-  if(typeof window !== 'undefined') {
-    window.scrollTop({
-      top:0,
-      behavior:'instant'
-    });
-  }
+const scrollTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 };
 </script>
 
@@ -15,16 +13,16 @@ const scrollTop =()=>{
       <img src="/src/img/care.png" alt="logo-salud" class="hidden md:block" width="48">
     </div>
     <div class="text-center mt-4 space-x-10 md:mt-0 text-white">
-			<a target="_blank" href="https://github.com/Alejandro-Montepeque" title="github">
+      <a target="_blank" href="https://github.com/Alejandro-Montepeque" title="github">
         <i class="fa-brands fa-github"></i>
-			</a>
-			<a target="_blank" href="https://linkedin.com/in/alejandro-montepeque" title="linkedin">
+      </a>
+      <a target="_blank" href="https://linkedin.com/in/alejandro-montepeque" title="linkedin">
         <i class="fa-brands fa-linkedin"></i>
-			</a>
-		</div>
+      </a>
+    </div>
     <button @click="scrollTop" class="sm:py-4">
-			<span class="text-white">Volver arriba</span>
+      <span class="text-white">Volver arriba</span>
       <i class="fa-solid fa-arrow-up ms-2" style="color: #fcfcfc;"></i>
-		</button>
+    </button>
   </footer>
 </template>
