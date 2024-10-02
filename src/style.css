@@ -28,7 +28,7 @@
 
   .card {
     @apply w-full flex
-    max-w-sm p-4 rounded-lg
+     p-4 rounded-lg
     sm:p-6 md:p-8
   }
 

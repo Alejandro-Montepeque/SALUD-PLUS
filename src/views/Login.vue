@@ -2,12 +2,15 @@
     import { ref } from 'vue';
     import { useRouter } from 'vue-router';
     import Navbar from '../components/Navbar.vue';
+    // import { zod } from "zod";
+
+
 </script>
 
 <template>
     <Navbar />
     <div class="flex justify-end items-center w-full h-screen bg-background-img bg-cover bg-fixed">
-        <div class="card bg-primary mr-20">
+        <div class="card bg-primary mr-20 max-w-sm">
             <form class="space-y-10 w-full">
                 <h5 class="text-xl font-medium text-gray-900 dark:text-white">Bienvenido a SALUD-PLUS
                 </h5>
@@ -21,12 +24,15 @@
                 </div>
                 <div>
                     <div class="text-sm text-yellow-400 hover:underline cursor-pointer ">
-                        <router-view to="/recovery-password">¿Olvidaste la contraseña?</router-view>
+                        <router-link to="/recovery-password">¿Olvidaste la contraseña?</router-link>
                     </div>
                 </div>
                 <button type="submit" class="w-full btn-bg">Inicia Sesion</button>
                 <div class="text-sm font-medium text-white">
-                    No estas Registrado? <a href="#" class="text-yellow-400 hover:underline dark:text-yellow-400">Crea una cuenta</a>
+                    No estás registrado?
+                    <router-link to="/register" class="text-yellow-400 hover:underline dark:text-yellow-400 cursor-pointer">
+                        Crea una cuenta
+                    </router-link>
                 </div>
             </form>
         </div>
