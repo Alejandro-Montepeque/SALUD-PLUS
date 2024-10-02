@@ -33,7 +33,7 @@
                 </div>
                 <div>
                     <div class="text-sm text-white">
-                        ¿Ya tienes cuenta?<router-view to="/recovery-password"> <span class="text-yellow-400 hover:underline cursor-pointer "> Inicia sesion </span></router-view>
+                        ¿Ya tienes cuenta?<router-link to="/login"> <span class="text-yellow-400 hover:underline cursor-pointer "> Inicia sesion </span></router-link>
                     </div>
                 </div>
                 <button type="submit" class="w-full btn-bg">Registrate!</button>

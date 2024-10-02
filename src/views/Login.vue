@@ -24,12 +24,15 @@
                 </div>
                 <div>
                     <div class="text-sm text-yellow-400 hover:underline cursor-pointer ">
-                        <router-view to="/recovery-password">¿Olvidaste la contraseña?</router-view>
+                        <router-link to="/recovery-password">¿Olvidaste la contraseña?</router-link>
                     </div>
                 </div>
                 <button type="submit" class="w-full btn-bg">Inicia Sesion</button>
                 <div class="text-sm font-medium text-white">
-                    No estas Registrado? <a href="#" class="text-yellow-400 hover:underline dark:text-yellow-400">Crea una cuenta</a>
+                    No estás registrado?
+                    <router-link to="/register" class="text-yellow-400 hover:underline dark:text-yellow-400 cursor-pointer">
+                        Crea una cuenta
+                    </router-link>
                 </div>
             </form>
         </div>

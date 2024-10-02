@@ -5,7 +5,7 @@ import Register from './views/Register.vue'
 
 const routes = [
     {
-        path: '/',
+        path: '/login',
         name:'login',
         component: Login
     },
