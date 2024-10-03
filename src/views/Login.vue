@@ -12,7 +12,7 @@
     <div class="flex md:justify-end sm:justify-center items-center w-full h-screen bg-background-img bg-cover bg-fixed">
         <div class="card bg-primary md:mr-20 md:max-w-sm">
             <form class="space-y-10 w-full">
-                <h5 class="text-xl font-medium text-gray-900 dark:text-white">Bienvenido a SALUD-PLUS
+                <h5 class="text-xl font-medium text-gray-900 text-white">Bienvenido a SALUD-PLUS
                 </h5>
                 <div>
                     <label for="email" class="block mb-2 text-sm font-medium text-white">Correo Electronico</label>

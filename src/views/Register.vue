@@ -36,7 +36,7 @@
                         ¿Ya tienes cuenta?<router-link to="/"> <span class="text-yellow-400 hover:underline cursor-pointer "> Inicia sesion </span></router-link>
                     </div>
                 </div>
-                <button type="submit" class="w-full btn-bg">Registrate! </button>
+                <button type="submit" class="w-full btn-bg">Registrate!</button>
             </form>
         </div>
     </div>
