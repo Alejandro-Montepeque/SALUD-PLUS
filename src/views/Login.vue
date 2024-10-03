@@ -9,8 +9,8 @@
 
 <template>
     <Navbar />
-    <div class="flex justify-end items-center w-full h-screen bg-background-img bg-cover bg-fixed">
-        <div class="card bg-primary mr-20 max-w-sm">
+    <div class="flex md:justify-end sm:justify-center items-center w-full h-screen bg-background-img bg-cover bg-fixed">
+        <div class="card bg-primary md:mr-20 md:max-w-sm">
             <form class="space-y-10 w-full">
                 <h5 class="text-xl font-medium text-gray-900 dark:text-white">Bienvenido a SALUD-PLUS
                 </h5>

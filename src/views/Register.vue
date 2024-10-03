@@ -7,7 +7,7 @@
     <Navbar />
     <div class="grid content-center justify-center w-full h-screen bg-background-img-register bg-cover bg-fixed">
         <div>
-            <h1>Completa tu registro para acceder a todas las funciones de SALUD-PLUS</h1>
+            <h1 class="text-xl">Completa tu registro para acceder a todas las funciones de SALUD-PLUS</h1>
         </div>
             <div class="card bg-primary max-w-xl">
             <form class="space-y-10 w-full">
