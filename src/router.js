@@ -6,7 +6,7 @@ import Recovery from './views/RecoveryPassword.vue'
 
 const routes = [
     {
-        path: '/login',
+        path: '/',
         name:'login',
         component: Login
     },
